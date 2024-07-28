@@ -2,6 +2,9 @@
 pub fn factorial(n: u32) -> u32 {
     let mut total: u32 = 0;
     let mut i: u32 = 0;
+    let foo: &str = "asdf";
+    println!("the length of foo is: {}", foo.len());
+
     while i <= n {
         if i == 0 {
             total = 1;
